@@ -1,0 +1,9 @@
+{application,trade,
+             [{applications,[kernel,stdlib,elixir,logger,poison,httpoison]},
+              {description,"trade"},
+              {modules,['Elixir.Trade','Elixir.Trade.Main.Supervisor',
+                        'Elixir.Trade.Request','Elixir.Trade.Server',
+                        'Elixir.Trade.Supervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Trade',[]}}]}.
